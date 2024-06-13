@@ -30,4 +30,6 @@ return {
   { import = "astrocommunity.indent.indent-blankline-nvim" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.recipes.vscode" },
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+  { import = "astrocommunity.recipes.heirline-clock-statusline" },
 }
