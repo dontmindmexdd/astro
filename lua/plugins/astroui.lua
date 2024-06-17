@@ -8,9 +8,6 @@ return {
   "AstroNvim/astroui",
   ---@type AstroUIOpts
   opts = {
-    -- change colorscheme
-    colorscheme = "catppuccin",
-
     status = {
       attributes = {
         git_branch = { italic = true },
