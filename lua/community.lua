@@ -1,7 +1,3 @@
--- AstroCommunity: import any community modules here
--- We import this file in `lazy_setup.lua` before the `plugins/` folder.
--- This guarantees that the specs are processed before any user plugins.
-
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
@@ -24,6 +20,7 @@ return {
   -- { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.lua" },
 
   -- other plugins
   { import = "astrocommunity.motion.flash-nvim" },
