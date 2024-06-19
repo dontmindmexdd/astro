@@ -21,15 +21,20 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.go" },
 
   -- other plugins
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.mini-ai" },
   { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.motion.mini-basics" },
   { import = "astrocommunity.indent.indent-blankline-nvim" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.recipes.vscode" },
   -- { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   -- { import = "astrocommunity.recipes.heirline-clock-statusline" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
+  { import = "astrocommunity.startup.mini-starter" },
 }

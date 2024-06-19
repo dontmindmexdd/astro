@@ -18,3 +18,5 @@ end
 require "lazy_setup"
 require "polish"
 require "colors"
+require "settings"
+require "keymaps"
