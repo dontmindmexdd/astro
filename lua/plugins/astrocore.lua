@@ -72,6 +72,20 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+
+        ["s"] = { "<Plug>(leap)", desc = "Leap" },
+        ["S"] = { "<Plug>(leap-from-window)", desc = "Leap from window" },
+        ["gs"] = false,
+      },
+      x = {
+        ["s"] = { "<Plug>(leap-forward)", desc = "Leap forward" },
+        ["S"] = { "<Plug>(leap-backward)", desc = "Leap backward" },
+        ["gs"] = false,
+      },
+      o = {
+        ["s"] = { "<Plug>(leap-forward)", desc = "Leap forward" },
+        ["S"] = { "<Plug>(leap-backward)", desc = "Leap backward" },
+        ["gs"] = false,
       },
     },
     autocmds = {

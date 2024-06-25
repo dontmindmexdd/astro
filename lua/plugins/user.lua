@@ -2,9 +2,4 @@
 -- Here are some examples:
 
 ---@type LazySpec
-return {
-  "ray-x/go.nvim",
-  opts = {
-    disable_defaults = false,
-  },
-}
+return {}
