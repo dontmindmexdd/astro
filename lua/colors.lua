@@ -1,4 +1,4 @@
 if not vim.g.vscode then
-  vim.cmd "colorscheme solarized"
+  vim.cmd "colorscheme catppuccin"
   vim.opt.background = "light"
 end
