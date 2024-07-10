@@ -5,10 +5,13 @@ return {
 
   -- use lualine
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   -- colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
 
   -- language packs
   { import = "astrocommunity.pack.typescript" },
@@ -36,5 +39,5 @@ return {
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.startup.mini-starter" },
-  { import = "astrocommunity.scrolling.satellite-nvim" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
 }
