@@ -4,7 +4,7 @@ return {
   { import = "astrocommunity.pack.lua" },
 
   -- use lualine
-  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   -- colorschemes
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
@@ -37,5 +37,4 @@ return {
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.startup.mini-starter" },
   { import = "astrocommunity.scrolling.satellite-nvim" },
-  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
 }
