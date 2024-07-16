@@ -11,7 +11,7 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
 
   -- language packs
   { import = "astrocommunity.pack.typescript" },
