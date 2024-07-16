@@ -19,4 +19,13 @@ return {
       symbol = "│",
     },
   },
+
+  -- cmp select first on enter
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      local cmp = require "cmp"
+      opts.mapping["<CR>"] = cmp.mapping.confirm { select = true }
+    end,
+  },
 }
