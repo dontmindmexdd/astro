@@ -17,7 +17,7 @@ return {
 
         return {
           -- fix leap nvim bad highlights (LeapLabelPrimary, LeapLabelSecondary)
-          LeapLabel = { bg = colors.red, fg = colors.base02 },
+          LeapLabel = { bg = colors.red, fg = colors.base02, bold = true },
 
           -- make listchars not annoying
           NonText = { fg = fg },
