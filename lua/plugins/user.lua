@@ -28,4 +28,12 @@ return {
       opts.mapping["<CR>"] = cmp.mapping.confirm { select = true }
     end,
   },
+
+  {
+    "karb94/neoscroll.nvim",
+    opts = {
+      hide_cursor = false,
+      post_hook = function() vim.cmd "normal! zz" end,
+    },
+  },
 }
