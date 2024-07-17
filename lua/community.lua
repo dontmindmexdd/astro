@@ -42,5 +42,6 @@ return {
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.startup.mini-starter" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.icon.mini-icons" },
 }
