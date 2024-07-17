@@ -38,7 +38,9 @@ return {
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.auto-session-restore" },
+  { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.startup.mini-starter" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.icon.mini-icons" },
 }
