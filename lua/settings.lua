@@ -13,4 +13,5 @@ vim.opt.listchars:append {
 if vim.g.neovide then
   vim.g.neovide_cursor_animation_length = 0
   vim.g.neovide_show_border = false
+  vim.o.guifont = "JetBrains Mono:h18"
 end

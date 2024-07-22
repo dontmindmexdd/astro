@@ -1,6 +1,7 @@
+local notVscode = not vim.g.vscode
 return {
   -- sync terminal colors
-  { "typicode/bg.nvim", lazy = false },
+  { "typicode/bg.nvim", enabled = notVscode, lazy = false },
 
   -- indent
   {
@@ -29,11 +30,25 @@ return {
     end,
   },
 
+  -- {
+  --   "karb94/neoscroll.nvim",
+  --   enabled = false,
+  --   opts = {
+  --     hide_cursor = false,
+  --     -- post_hook = function() vim.cmd "normal! zz" end,
+  --   },
+  -- },
+
   {
-    "karb94/neoscroll.nvim",
-    opts = {
-      hide_cursor = false,
-      post_hook = function() vim.cmd "normal! zz" end,
+    "echasnovski/mini.statusline",
+    version = false,
+    opts = {},
+    specs = {
+      {
+        "rebelot/heirline.nvim",
+        optional = true,
+        opts = function(_, opts) opts.statusline = nil end,
+      },
     },
   },
 }

@@ -4,7 +4,7 @@ return {
   { import = "astrocommunity.pack.lua" },
 
   -- use lualine
-  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   -- colorschemes
