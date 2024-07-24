@@ -11,7 +11,6 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.neosolarized-nvim" },
 
   -- language packs
   { import = "astrocommunity.pack.typescript" },
@@ -34,14 +33,12 @@ return {
   { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.indent.indent-blankline-nvim" },
   { import = "astrocommunity.indent.mini-indentscope" },
-  { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.auto-session-restore" },
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
-  { import = "astrocommunity.startup.mini-starter" },
+  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  -- { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
 }

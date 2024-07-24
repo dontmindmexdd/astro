@@ -30,15 +30,7 @@ return {
     end,
   },
 
-  -- {
-  --   "karb94/neoscroll.nvim",
-  --   enabled = false,
-  --   opts = {
-  --     hide_cursor = false,
-  --     -- post_hook = function() vim.cmd "normal! zz" end,
-  --   },
-  -- },
-
+  -- best statusline ^-^
   {
     "echasnovski/mini.statusline",
     version = false,
@@ -49,6 +41,26 @@ return {
         optional = true,
         opts = function(_, opts) opts.statusline = nil end,
       },
+    },
+  },
+
+  -- neotree on the right
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        position = "right",
+      },
+    },
+  },
+
+  -- auto dark mode based on system mode
+  {
+    "f-person/auto-dark-mode.nvim",
+    opts = {
+      update_interval = 1000,
+      set_dark_mode = function() vim.opt.background = "dark" end,
+      set_light_mode = function() vim.opt.background = "light" end,
     },
   },
 }
