@@ -3,15 +3,11 @@ vim.o.sidescrolloff = 12
 vim.opt.timeoutlen = vim.g.vscode and 1000 or 300
 
 -- listchars
-vim.o.list = true
+vim.o.list = false
 vim.opt.listchars:append {
   space = "·",
   trail = "~",
   tab = "│·",
 }
 
-if vim.g.neovide then
-  vim.g.neovide_cursor_animation_length = 0
-  vim.g.neovide_show_border = false
-  vim.o.guifont = "JetBrainsMono Nerd Font:h18"
-end
+vim.opt.swapfile = false

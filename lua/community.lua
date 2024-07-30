@@ -1,10 +1,8 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
 
   -- use lualine
-  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   -- colorschemes
@@ -21,7 +19,6 @@ return {
   -- { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.prisma" },
 
   -- other plugins
@@ -36,9 +33,7 @@ return {
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.auto-session-restore" },
-  { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
-  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.icon.mini-icons" },
 }
