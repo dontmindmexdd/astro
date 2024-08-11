@@ -9,7 +9,8 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-
+  { import = "astrocommunity.colorscheme.oxocarbon-nvim" },
+  { import = "astrocommunity.colorscheme.mini-base16" },
   -- language packs
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
@@ -36,4 +37,6 @@ return {
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.icon.mini-icons" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.precognition-nvim" },
 }

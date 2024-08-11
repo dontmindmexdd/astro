@@ -77,11 +77,11 @@ return {
       update_interval = 1000,
       set_dark_mode = function()
         vim.opt.background = "dark"
-        vim.cmd "colorscheme solarized"
+        vim.cmd "colorscheme minischeme"
       end,
       set_light_mode = function()
         vim.opt.background = "light"
-        vim.cmd "colorscheme solarized"
+        vim.cmd "colorscheme minischeme"
       end,
     },
   },
