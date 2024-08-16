@@ -37,6 +37,7 @@ return {
   { import = "astrocommunity.utility.telescope-fzy-native-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.icon.mini-icons" },
-  -- { import = "astrocommunity.workflow.hardtime-nvim" },
-  -- { import = "astrocommunity.workflow.precognition-nvim" },
+  { import = "astrocommunity.lsp.ts-error-translator-nvim" },
+  -- { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
 }
