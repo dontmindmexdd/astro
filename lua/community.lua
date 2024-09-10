@@ -38,6 +38,8 @@ return {
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
-  -- { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.git.octo-nvim" },
+
+  -- { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
 }

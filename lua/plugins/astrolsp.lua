@@ -17,5 +17,8 @@ return {
         },
       },
     },
+    features = {
+      signature_help = true, -- enable automatic signature help popup globally on startup
+    },
   },
 }
